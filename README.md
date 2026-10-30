@@ -8,6 +8,8 @@
 
 Cockroach Forge is a desktop-oriented AI text-to-speech studio. Its local FastAPI backend serves a browser interface for generating speech, managing voices, making batches, and working with voice-cloning features when supported by the installed model.
 
+![Cockroach Forge studio interface](docs/screenshots/cockroach-forge-studio.png)
+
 ## What it can do
 
 - Generate speech with the configured Pocket TTS engine.

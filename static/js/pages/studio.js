@@ -3,7 +3,7 @@ let studioPlayer = null;
 let studioVoice = {id:'alba',name:'Alba',gender:'female',language:'en',description:'Clear, versatile female voice'};
 
 function initStudioPage() {
-  const page = document.getElementById('studio-page');
+  const page = document.getElementById('page-studio');
   if (!page || page.dataset.initialized) return;
   page.dataset.initialized = 'true';
   page.innerHTML = `
